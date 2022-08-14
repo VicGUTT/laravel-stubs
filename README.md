@@ -45,7 +45,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
--   [{author-name}](https://github.com/{author-username})
+-   [Victor GUTT](https://github.com/vicgutt)
 -   [All Contributors](../../contributors)
 
 ## License
