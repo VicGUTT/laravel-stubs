@@ -37,7 +37,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/vicgutt/.github/blob/main/CONTRIBUTING.md) for details.
+If you're interested in contributing to the project, please read our [contributing docs](https://github.com/vicgutt/laravel-stubs/blob/main/.github/CONTRIBUTING.md) **before submitting a pull request**.
 
 ## Security Vulnerabilities
 
@@ -45,9 +45,9 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
--   [Victor GUTT](https://github.com/vicgutt)
+-   [{author-name}](https://github.com/{author-username})
 -   [All Contributors](../../contributors)
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
