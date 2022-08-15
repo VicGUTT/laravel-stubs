@@ -10,7 +10,7 @@ use Illuminate\Console\View\Components\Factory;
 use Symfony\Component\Console\Input\InputOption;
 use Illuminate\Foundation\Console\StubPublishCommand;
 
-final class LaravelStubsCommand extends StubPublishCommand
+class LaravelStubsCommand extends StubPublishCommand
 {
     /**
      * The name and signature of the console command.

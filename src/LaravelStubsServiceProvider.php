@@ -8,7 +8,7 @@ use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 use VicGutt\LaravelStubs\Commands\LaravelStubsCommand;
 
-final class LaravelStubsServiceProvider extends PackageServiceProvider
+class LaravelStubsServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
