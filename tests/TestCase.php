@@ -9,6 +9,12 @@ use VicGutt\LaravelStubs\LaravelStubsServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
+    /**
+     * Get package providers.
+     *
+     * @param  \Illuminate\Foundation\Application  $app
+     * @return array<int, class-string>
+     */
     protected function getPackageProviders($app): array
     {
         return [

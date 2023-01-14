@@ -4,17 +4,11 @@ declare(strict_types=1);
 
 namespace ___LaravelStubs___namespace;
 
-use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-/**
- * @property int $id
- * @property null|Carbon $created_at
- * @property null|Carbon $updated_at
- */
 final class ___LaravelStubs___class extends Model
 {
     use HasFactory;
@@ -31,7 +25,7 @@ final class ___LaravelStubs___class extends Model
     /**
      * The attributes that should be cast.
      *
-     * @var array
+     * @var array<string, string>
      */
     protected $casts = [
         'id' => 'int',
@@ -53,6 +47,9 @@ final class ___LaravelStubs___class extends Model
 
     /**
      * ...
+     *
+     * @param Builder<___LaravelStubs___class> $query
+     * @return Builder<___LaravelStubs___class>
      */
     public function scopeName(Builder $query): Builder
     {
