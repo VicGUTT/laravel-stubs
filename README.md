@@ -1,8 +1,9 @@
 # Overwrites and provides an opinionated version of the Laravel stubs
 
+[![GitHub Tests Action Status](https://github.com/vicgutt/laravel-stubs/actions/workflows/run-tests.yml/badge.svg)](https://github.com/vicgutt/laravel-stubs/actions/workflows/run-tests.yml)
+[![GitHub PHPStan Action Status](https://github.com/vicgutt/laravel-stubs/actions/workflows/phpstan.yml/badge.svg)](https://github.com/vicgutt/laravel-stubs/actions/workflows/phpstan.yml)
+[![GitHub Code Style Action Status](https://github.com/vicgutt/laravel-stubs/actions/workflows/fix-php-code-style-issues.yml/badge.svg)](https://github.com/vicgutt/laravel-stubs/actions/workflows/fix-php-code-style-issues.yml)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/vicgutt/laravel-stubs.svg?style=flat-square)](https://packagist.org/packages/vicgutt/laravel-stubs)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/vicgutt/laravel-stubs/run-tests?label=tests)](https://github.com/vicgutt/laravel-stubs/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/vicgutt/laravel-stubs/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/vicgutt/laravel-stubs/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/vicgutt/laravel-stubs.svg?style=flat-square)](https://packagist.org/packages/vicgutt/laravel-stubs)
 
 ---
