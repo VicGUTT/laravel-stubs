@@ -4,36 +4,18 @@ declare(strict_types=1);
 
 namespace ___LaravelStubs___namespace;
 
-use Illuminate\Contracts\Validation\___LaravelStubs___ruleType;
+use Closure;
+use Illuminate\Contracts\Validation\ValidationRule;
 
-final class ___LaravelStubs___class implements ___LaravelStubs___ruleType
+final class ___LaravelStubs___class implements ValidationRule
 {
     /**
-     * Create a new rule instance.
+     * Run the validation rule.
      *
-     * @return void
+     * @param  Closure(string): \Illuminate\Translation\PotentiallyTranslatedString  $fail
      */
-    public function __construct()
+    public function validate(string $attribute, mixed $value, Closure $fail): void
     {
         //
-    }
-
-    /**
-     * Determine if the validation rule passes.
-     *
-     * @param  string  $attribute
-     */
-    public function passes($attribute, $value): bool
-    {
-        return false;
-    }
-
-    /**
-     * Get the validation error message.
-     *
-     */
-    public function message(): string
-    {
-        return 'The validation error message.';
     }
 }

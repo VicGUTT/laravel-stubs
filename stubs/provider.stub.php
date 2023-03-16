@@ -10,7 +10,6 @@ final class ___LaravelStubs___class extends ServiceProvider
 {
     /**
      * Register services.
-     *
      */
     public function register(): void
     {
@@ -19,7 +18,6 @@ final class ___LaravelStubs___class extends ServiceProvider
 
     /**
      * Bootstrap services.
-     *
      */
     public function boot(): void
     {

@@ -6,6 +6,8 @@ namespace ___LaravelStubs___namespace;
 
 use Illuminate\Database\Seeder;
 
+// keep: use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
 final class ___LaravelStubs___class extends Seeder
 {
     /**

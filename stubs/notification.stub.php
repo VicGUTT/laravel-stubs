@@ -14,8 +14,6 @@ final class ___LaravelStubs___class extends Notification
 
     /**
      * Create a new notification instance.
-     *
-     * @return void
      */
     public function __construct()
     {
@@ -24,8 +22,10 @@ final class ___LaravelStubs___class extends Notification
 
     /**
      * Get the notification's delivery channels.
+     *
+     * @return array<int, string>
      */
-    public function via($notifiable): array
+    public function via(object $notifiable): array
     {
         return ['mail'];
     }
@@ -33,7 +33,7 @@ final class ___LaravelStubs___class extends Notification
     /**
      * Get the mail representation of the notification.
      */
-    public function toMail($notifiable): MailMessage
+    public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage())
             ->line('The introduction to the notification.')
@@ -43,8 +43,10 @@ final class ___LaravelStubs___class extends Notification
 
     /**
      * Get the array representation of the notification.
+     *
+     * @return array<string, mixed>
      */
-    public function toArray($notifiable): array
+    public function toArray(object $notifiable): array
     {
         return [
             //

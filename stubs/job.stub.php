@@ -12,8 +12,6 @@ final class ___LaravelStubs___class
 
     /**
      * Create a new job instance.
-     *
-     * @return void
      */
     public function __construct()
     {

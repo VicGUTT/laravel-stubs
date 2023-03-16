@@ -13,8 +13,6 @@ final class ___LaravelStubs___class
 
     /**
      * Create a new policy instance.
-     *
-     * @return void
      */
     public function __construct()
     {

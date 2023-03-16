@@ -10,6 +10,8 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 
+// keep: use Illuminate\Contracts\Queue\ShouldBeUnique;
+
 final class ___LaravelStubs___class implements ShouldQueue
 {
     use Dispatchable;
@@ -19,8 +21,6 @@ final class ___LaravelStubs___class implements ShouldQueue
 
     /**
      * Create a new job instance.
-     *
-     * @return void
      */
     public function __construct()
     {

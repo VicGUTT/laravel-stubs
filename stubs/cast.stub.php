@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace ___LaravelStubs___namespace;
 
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 
 final class ___LaravelStubs___class implements CastsAttributes
@@ -11,9 +12,9 @@ final class ___LaravelStubs___class implements CastsAttributes
     /**
      * Cast the given value.
      *
-     * @param  \Illuminate\Database\Eloquent\Model  $model
+     * @param  array<string, mixed>  $attributes
      */
-    public function get($model, string $key, $value, array $attributes): mixed
+    public function get(Model $model, string $key, mixed $value, array $attributes): mixed
     {
         return $value;
     }
@@ -21,9 +22,9 @@ final class ___LaravelStubs___class implements CastsAttributes
     /**
      * Prepare the given value for storage.
      *
-     * @param  \Illuminate\Database\Eloquent\Model  $model
+     * @param  array<string, mixed>  $attributes
      */
-    public function set($model, string $key, $value, array $attributes): mixed
+    public function set(Model $model, string $key, mixed $value, array $attributes): mixed
     {
         return $value;
     }
