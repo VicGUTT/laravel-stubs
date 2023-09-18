@@ -7,7 +7,7 @@ namespace ___LaravelStubs___namespace;
 // keep: use ___LaravelStubs___namespacedModel;
 
 /**
- * All Eloquent model events dispatched (as of v9.x):
+ * All Eloquent model events dispatched (as of v10.x):
  *    - retrieved
  *    - creating
  *    - created
@@ -18,6 +18,7 @@ namespace ___LaravelStubs___namespace;
  *    - deleting
  *    - deleted
  *    - trashed
+ *    - forceDeleting
  *    - forceDeleted
  *    - restoring
  *    - restored

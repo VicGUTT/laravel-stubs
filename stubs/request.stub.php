@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace ___LaravelStubs___namespace;
 
+use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Contracts\Validation\ValidationRule;
 
 final class ___LaravelStubs___class extends FormRequest
 {
@@ -19,7 +21,7 @@ final class ___LaravelStubs___class extends FormRequest
     /**
      * Get the validation rules that apply to the request.
      *
-     * @return array<string, \Illuminate\Contracts\Validation\Rule|array|string>
+     * @return array<string, Rule|ValidationRule|array|string>
      */
     public function rules(): array
     {
