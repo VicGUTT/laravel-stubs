@@ -48,8 +48,8 @@ final class ___LaravelStubs___class extends Model
     /**
      * ...
      *
-     * @param Builder<___LaravelStubs___class> $query
-     * @return Builder<___LaravelStubs___class>
+     * @param Builder<static> $query
+     * @return Builder<static>
      */
     public function scopeName(Builder $query): Builder
     {
