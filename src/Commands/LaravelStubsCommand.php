@@ -34,6 +34,7 @@ class LaravelStubsCommand extends StubPublishCommand
         'namespacedParentModel',
         'namespacedUserModel',
         'factoryNamespace',
+        'eventNamespace',
         'parentModelVariable',
         'parentModel',
         'modelVariable',
@@ -44,8 +45,10 @@ class LaravelStubsCommand extends StubPublishCommand
         'class',
         'model',
         'factory',
+        'event',
         'user',
         'view',
+        'type',
     ];
 
     /**

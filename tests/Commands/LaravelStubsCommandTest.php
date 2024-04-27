@@ -14,7 +14,7 @@ $paths = [
 beforeEach(function () use ($paths): void {
     File::ensureDirectoryExists($paths['results']);
 
-    /** @var \Illuminate\Foundation\Application */
+    /** @var Illuminate\Foundation\Application */
     $app = app();
 
     // $paths['base_path()'] = $app->basePath();
