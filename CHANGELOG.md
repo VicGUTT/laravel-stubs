@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-stubs` will be documented in this file.
 
+## v0.1.7 - 2024-06-03
+
+**Full Changelog**: https://github.com/VicGUTT/laravel-stubs/compare/v0.1.6...v0.1.7
+
 ## v0.1.6 - 2024-04-27
 
 **Full Changelog**: https://github.com/VicGUTT/laravel-stubs/compare/v0.1.5...v0.1.6
