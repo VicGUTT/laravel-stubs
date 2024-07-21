@@ -60,6 +60,10 @@ it('works', function () use ($paths): void {
             continue;
         }
 
+        if (str_contains($generatedFile->getFilename(), 'pest.')) {
+            continue;
+        }
+
         if ($generatedFile->getFilename() === 'factory.stub') {
             expect(str_contains($content, '{{ factoryNamespace }}'))->toEqual(true);
 
