@@ -7,7 +7,13 @@ namespace ___LaravelStubs___namespace;
 // keep: use ___LaravelStubs___namespacedModel;
 
 /**
- * All Eloquent model events dispatched (as of v10.x):
+ * When models are being created within a database transaction,
+ * the observer may be instructed to only execute its event handlers
+ * after the database transaction is committed. This may be accomplished
+ * by implementing the `ShouldHandleEventsAfterCommit` interface. If a database
+ * transaction is not in progress, the event handlers will execute immediately.
+ *
+ * All Eloquent model events dispatched (as of v9-v11):
  *    - retrieved
  *    - creating
  *    - created
@@ -29,11 +35,6 @@ namespace ___LaravelStubs___namespace;
  */
 final class ___LaravelStubs___class
 {
-    /**
-     * Handle events after all transactions are committed.
-     */
-    public bool $afterCommit = true;
-
     /**
      * Handle the ___LaravelStubs___model "created" event.
      */
