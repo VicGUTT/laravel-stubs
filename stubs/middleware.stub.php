@@ -15,7 +15,7 @@ final class ___LaravelStubs___class
     /**
      * Handle an incoming request.
      *
-     * @param  Closure(\Illuminate\Http\Request): (\Illuminate\Http\Response|Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse)  $next
+     * @param  Closure(Request): (Response|Illuminate\Http\JsonResponse|RedirectResponse)  $next
      */
     public function handle(Request $request, Closure $next): Response|JsonResponse|RedirectResponse
     {

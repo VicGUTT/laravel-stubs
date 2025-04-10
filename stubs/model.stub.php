@@ -22,18 +22,6 @@ final class ___LaravelStubs___class extends Model
         'id',
     ];
 
-    /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
-    protected function casts(): array
-    {
-        return [
-            'id' => 'int',
-        ];
-    }
-
     /* Relationships
     ------------------------------------------------*/
 
@@ -57,6 +45,18 @@ final class ___LaravelStubs___class extends Model
     public function scopeName(Builder $query): Builder
     {
         return $query;
+    }
+
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'id' => 'int',
+        ];
     }
 
     /* Accessors & Mutators
