@@ -6,6 +6,7 @@ namespace ___LaravelStubs___namespace;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
+// keep: use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 
 final class ___LaravelStubs___class extends Notification

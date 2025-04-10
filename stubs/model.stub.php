@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace ___LaravelStubs___namespace;
 
+// {{ factoryImport }}
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 final class ___LaravelStubs___class extends Model
 {
-    use HasFactory;
+    // {{ factory }}
 
     /**
      * The attributes that aren't mass assignable.
@@ -23,13 +23,16 @@ final class ___LaravelStubs___class extends Model
     ];
 
     /**
-     * The attributes that should be cast.
+     * Get the attributes that should be cast.
      *
-     * @var array<string, string>
+     * @return array<string, string>
      */
-    protected $casts = [
-        'id' => 'int',
-    ];
+    protected function casts(): array
+    {
+        return [
+            'id' => 'int',
+        ];
+    }
 
     /* Relationships
     ------------------------------------------------*/

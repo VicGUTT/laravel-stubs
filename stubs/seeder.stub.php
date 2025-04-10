@@ -15,6 +15,14 @@ final class ___LaravelStubs___class extends Seeder
      */
     public function run(): void
     {
-        //
+        // MyModel::factory(10)->create();
+
+        // MyModel::factory()->create([
+        //     'abc' => 'def',
+        // ]);
+
+        // $this->call([
+        //     MySeeder::class,
+        // ]);
     }
 }
